@@ -27,7 +27,7 @@ Author: i11 - Embedded Software, RWTH Aachen University
 
 #include "rtps/common/types.h"
 
-extern uint8_t IP_ADDRESS[4];
+extern uint8_t IP_ADDRESSES[4];
 
 namespace rtps {
 
