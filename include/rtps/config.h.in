@@ -98,8 +98,8 @@ const uint8_t SPDP_WRITER_PRIO = 19;
 const uint8_t SPDP_WRITER_PRIO = 3;
 #endif
 
-const uint8_t SPDP_MAX_NUMBER_FOUND_PARTICIPANTS = 3;
-const uint8_t SPDP_MAX_NUM_LOCATORS = 3;
+const uint8_t SPDP_MAX_NUMBER_FOUND_PARTICIPANTS = 1;
+const uint8_t SPDP_MAX_NUM_LOCATORS = 1;
 const Duration_t SPDP_LEASE_DURATION = {20, 0};
 const Duration_t SPDP_DEFAULT_REMOTE_LEASE_DURATION = {100, 0};
 const Duration_t SPDP_MAX_REMOTE_LEASE_DURATION = {180, 0};
