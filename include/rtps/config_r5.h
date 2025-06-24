@@ -51,7 +51,7 @@ const uint8_t SPDP_WRITER_PRIO = 3;
 const uint8_t SPDP_CYCLECOUNT_HEARTBEAT =
     2; // Every X*SPDP_RESEND_PERIOD_MS, check for missing heartbeats
 const uint8_t SPDP_MAX_NUMBER_FOUND_PARTICIPANTS = 50;
-const uint8_t SPDP_MAX_NUM_LOCATORS = 5;
+const uint8_t SPDP_MAX_NUM_LOCATORS = 10;
 const Duration_t SPDP_DEFAULT_REMOTE_LEASE_DURATION = {
     100, 0}; // Default lease duration for remote participants, usually
              // overwritten by remote info
